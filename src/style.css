@@ -1,20 +1,40 @@
-*
-{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 html,
-body
-{
-    height: 100vh;
-    font-family: 'Poppins';
+body {
+  height: 100vh;
+  font-family: "Poppins";
+  background: #111111;
 }
 
-.webgl
-{
-    position: fixed;
-    top: 0;
-    left: 0;
-    outline: none;
+body {
+  overflow-x: hidden;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  outline: none;
+  mix-blend-mode: exclusion;
+}
+
+.container {
+  height: 100vh;
+  /* width: 100vw; */
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  font-size: 8rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+section {
+  height: 100vh;
 }
